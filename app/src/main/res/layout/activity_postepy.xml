@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Postepy"
+    android:background="@color/colorAccent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_wiek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_wzrost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_waga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_plec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_aktywnosc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_uraz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_BMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_cw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_serie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_powtorzenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_obciazenie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_szac_czas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_pod_kg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#F0ECEC"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

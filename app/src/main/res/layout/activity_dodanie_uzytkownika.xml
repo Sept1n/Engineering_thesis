@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dodanie_uzytkownika">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dodanie_uzytkownika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/Dodanie_uzytkownika"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/Nazwa_uzytkownika"
+                android:inputType="textPersonName"
+                android:paddingTop="@android:dimen/app_icon_size" />
+
+            <TextView
+                android:id="@+id/sprawdzenie_loginu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@android:dimen/app_icon_size"
+                android:text="@string/Sprawdzanie_login_wiek_wzrost_waga"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/wiek_uzytkownika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/Wiek_uzytkownika"
+                android:inputType="number"
+                android:paddingTop="@android:dimen/app_icon_size" />
+
+            <TextView
+                android:id="@+id/sprawdzenie_wieku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@android:dimen/app_icon_size"
+                android:text="@string/Sprawdzanie_login_wiek_wzrost_waga"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/wzrost_uzytkownika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/Wzrost_uzytkownika"
+                android:inputType="number|numberDecimal"
+                android:paddingTop="@android:dimen/app_icon_size" />
+
+            <TextView
+                android:id="@+id/sprawdzenie_wzrost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@android:dimen/app_icon_size"
+                android:text="@string/Sprawdzanie_login_wiek_wzrost_waga"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/waga_uzytkownika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/Waga_uzytkownika"
+                android:inputType="number"
+                android:paddingTop="@android:dimen/app_icon_size" />
+
+            <TextView
+                android:id="@+id/sprawdzenie_wagi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@android:dimen/app_icon_size"
+                android:text="@string/Sprawdzanie_login_wiek_wzrost_waga"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/plec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@android:dimen/app_icon_size"
+                android:text="@string/Plec"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/plec_wybor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/opcja_mezczyzna"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mezczyzna" />
+
+                <RadioButton
+                    android:id="@+id/opcja_kobieta"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Kobieta" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/aktywnosc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@android:dimen/app_icon_size"
+                android:text="@string/Aktywnosc"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/aktywnosc_wybor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/aktywnosc_brak"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Brak" />
+
+                <RadioButton
+                    android:id="@+id/aktywnosc_niewielka"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Niewielka" />
+
+                <RadioButton
+                    android:id="@+id/aktywnosc_umiarkowana"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Umiarkowana" />
+
+                <RadioButton
+                    android:id="@+id/aktywnosc_wysoka"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Wysoka" />
+
+                <RadioButton
+                    android:id="@+id/aktywnosc_bardzo_wysoka"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Bardzo_wysoka" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/uraz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@android:dimen/app_icon_size"
+                android:text="@string/Uraz"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/uraz_wybor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/uraz_przedramie"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Przedramie" />
+
+                <RadioButton
+                    android:id="@+id/uraz_ramie"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ramie" />
+
+                <RadioButton
+                    android:id="@+id/uraz_calosc"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Calosc" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/schorzenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@android:dimen/app_icon_size"
+                android:text="@string/Schorzenia"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/schorzenia_wybor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/opcja_tak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Tak" />
+
+                <RadioButton
+                    android:id="@+id/opcja_nie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nie" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingTop="@android:dimen/app_icon_size">
+
+                <Button
+                    android:id="@+id/potwierdz"
+                    style="@android:style/Widget.DeviceDefault.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="@string/Potwierdz" />
+
+                <Button
+                    android:id="@+id/anuluj"
+                    style="@android:style/Widget.DeviceDefault.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="@string/Anuluj" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

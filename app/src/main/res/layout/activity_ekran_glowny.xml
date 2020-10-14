@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".ekran_glowny">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="155dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/dzien_rehabilitacji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pusty_edit_text"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dip"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/Przycisk_cwiczenia"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Przycisk_cwiczenia" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/app_icon_size" />
+
+            <Button
+                android:id="@+id/Przycisk_postepy"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Przycisk_postepy" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/app_icon_size" />
+
+            <TextView
+                android:id="@+id/zalogowany_jako"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pusty_edit_text"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dip"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/Przycisk_zmiana_uzytkownika"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Zmiena_uzytkownika" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/app_icon_size" />
+
+            <Button
+                android:id="@+id/Przycisk_o_aplikacji"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/O_aplikacji" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

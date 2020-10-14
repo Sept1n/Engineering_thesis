@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Praca inżynierska</string>
+    <string name="Przycisk1">Wybierz</string>
+    <string name="Stworz_uzytkownika">Stwórz nowe konto</string>
+    <string name="Wyjscie">Wyjdź</string>
+    <string name="Main_screen">Witaj Użytkowniku! Wybierz swoje konto z listy:</string>
+    <string name="Przycisk_cwiczenia">ćwiczenia</string>
+    <string name="Przycisk_postepy">Postępy</string>
+    <string name="Zmiena_uzytkownika">Zmień Użytkownika</string>
+    <string name="O_aplikacji">O aplikacji</string>
+    <string name="Dodanie_uzytkownika">Wypełnij krótką ankietę, która pozwoli na dopasowanie początkowego zestawu ćwiczeń specjalnie dla Ciebie</string>
+    <string name="Nazwa_uzytkownika">Nazwa użytkownika</string>
+    <string name="Wiek_uzytkownika">Wiek [lata]</string>
+    <string name="Wzrost_uzytkownika">Wzrost [cm]</string>
+    <string name="Waga_uzytkownika">Waga [kg]</string>
+    <string name="Sprawdzanie_login_wiek_wzrost_waga">...</string>
+    <string name="Plec">Wybierz płeć:</string>
+    <string name="Mezczyzna">Mężczyzna</string>
+    <string name="Kobieta">Kobieta</string>
+    <string name="Aktywnosc">Określ swoją aktywność sportową przed urazem w ciągu tygodnia:</string>
+    <string name="Brak">0</string>
+    <string name="Niewielka">1-2</string>
+    <string name="Umiarkowana">3-4</string>
+    <string name="Wysoka">4-5</string>
+    <string name="Bardzo_wysoka">5+</string>
+    <string name="Tak">Tak</string>
+    <string name="Uraz">Urazowi uległo:</string>
+    <string name="Nie">Nie</string>
+    <string name="Przedramie">Przedramię</string>
+    <string name="Ramie">Ramię</string>
+    <string name="Calosc">Cała kończyna górna</string>
+    <string name="Schorzenia">Czy cierpisz na choroby/schorzenia, które mogą utrudnić Ci rehabilitację (np. osteoporoza)?</string>
+    <string name="Potwierdz">Potwierdź</string>
+    <string name="Anuluj">Anuluj</string>
+    <string name="Wybierz">Wybierz</string>
+    <string name="Usuń">Usuń konto</string>
+    <string name="Info_o_oplikacji"> \"Aplikacja na urządzenia mobilne do monitorowania postępów rehabilitacji kończyny górnej\"  została wykonana w ramach projektu inżynierskiego realizowanego na Politechnice
+        Gdańskiej przez studenta Inżynierii Biomedycznej na specjalizacji Informatyka w Medycynie w 2019 roku.</string>
+    <string name="instrukcja">
+        Aplikacja zawiera zestaw 17 ćwiczeń, z których każdego dnia losowane są inne.  Typy ćwiczeń mają charakter dualny, opisane są przez miejsca którego dotyczą
+        (przedramię lub ramię) oraz formę (poprawienie zakresu (mobliności) lub wzmocnienie).Przed przystąpieniem do ćwiczeń nie jest wymagana rozgrzewka, ponieważ ćwiczenia mobilizacyjne można za nią uznać.
+        Ból, po przebytym unieruchomieniu, związany jest z nieużywaniem danej części ciała przez określony czas. Jest to również wyznacznik tego czy zbliżamy się do granicy wytrzymałości naszego organizmu.
+        Nie ignoruj go, a z drugiej strony nie tłum przez nadmiar tabletek przeciwbólowych, tylko tak możesz zauważyć swoje postępy w trakcie rehabilitacji.
+        Jako obciążenie do ćwiczeń można wykorzystać przedmioty codziennego użytku jeśli nie ma się dostępu do np. profesjonalnych hantli. Obciążenia używane podczas ćwiczeń to: 0,5 kg (mała butelka z wodą),
+        1 kg (opakowanie cukru), 1,5 kg (butelka z wodą) i 2 kg (sok w kartonie). Całość została zaprojektowana na podstawie prawie 2-letniego doświadczenia autora, książek (podstawą była  \"Bądź sprawny jak
+        lampard\"  autorstwa dr Kelly Starrett\'a i Glen\'a Cordozy) oraz pomocy profesjonalnych fizjoterapeutów oraz studentów tego kierunku.
+    </string>
+    <string name="pusty_edit_text">...</string>
+    <string name="cwiczenie_nazwa_zak_przed_1">Przywodzenie dłoni skierowanej do dołu </string>
+    <string name="opis_cwiczenia_zak_przed_1">Dłoń skierowaną przed siebie zegnij do dołu. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund. </string>
+    <string name="cwiczenie_nazwa_zak_przed_2">Odwodzenie dłoni skierowanej do góry</string>
+    <string name="opis_cwiczenia_zak_przed_2">Dłoń skierowaną przed siebie zegnij do góry. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_zak_przed_3">Rozbijanie mięśni grupy przedniej przedramienia</string>
+    <string name="opis_cwiczenia_zak_przed_3">Do ćwiczenia można wykorzystać np piłeczkę golfową czy tenisową. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_zak_przed_4">Rozbijanie mięśni grupy tylnej przedramienia</string>
+    <string name="opis_cwiczenia_zak_przed_4">Do ćwiczenia można wykorzystać np piłeczkę golfową czy tenisową. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_zak_ram_1">Rozciąganie tricepsu I</string>
+    <string name="opis_cwiczenia_zak_ram_1">Ćwiczoną rękę umieść za głową, drugą od dołu za plecami i spleć dłonie. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_zak_ram_2">Rozciąganie tricepsu II</string>
+    <string name="opis_cwiczenia_zak_ram_2">Stań przy ścianie z uniesioną ręką. Zegnij rękę w stawie łokciowym i skieruj za głowę. Drugą ręką przytrzymaj łokieć. Wytrzymaj do momentu nasilenia bólu
+        lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_zak_ram_3">Rozciąganie bicepsu I</string>
+    <string name="opis_cwiczenia_zak_ram_3">Stań przy ścianie i ustaw za sobą wyprostowaną rękę. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_zak_ram_4">Rozciąganie bicepsu II</string>
+    <string name="opis_cwiczenia_zak_ram_4">Obróć dłonie o 180°. Wytrzymaj do momentu nasilenia bólu lub około 10 sekund.</string>
+    <string name="cwiczenie_nazwa_wzm_przed_1">Zginanie przedramion - nachwyt</string>
+    <string name="opis_cwiczenia_wzm_przed_1">Trzymając obciążenie wykonaj ruch nadgarstka do góry i wróć do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_przed_2">Zginanie przedramion - podchwyt</string>
+    <string name="opis_cwiczenia_wzm_przed_2">Trzymając obciążenie wykonaj ruch nadgarstka do góry i wróć do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_przed_3">Zginanie przedramion - boczny chwyt</string>
+    <string name="opis_cwiczenia_wzm_przed_3">Trzymając obciążenie wykonaj ruch nadgarstka do góry i wróć do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_ram_1">Prostowanie przedramienia zza głowy</string>
+    <string name="opis_cwiczenia_wzm_ram_1">Stój w lekkim rozkroku. Wyprost przedramion i powrót do pozycji początkowej.</string>
+    <string name="cwiczenie_nazwa_wzm_ram_2">Wyprost przedramion w pozycji pochylonej</string>
+    <string name="opis_cwiczenia_wzm_ram_2">Pochyl się w lekkim rozkroku. Przedramiona pod kątem 90°, wyprost i powrót do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_ram_3">Wyprost przedramion leżąc</string>
+    <string name="opis_cwiczenia_wzm_ram_3">Wyprost przedramion i powrót do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_ram_4">Zgięcie przedramion stojąc</string>
+    <string name="opis_cwiczenia_wzm_ram_4">Stój w lekkim rozkroku. Zgięcie przedramion i powrót do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_ram_5">Zgięcie przedramion siedząc</string>
+    <string name="opis_cwiczenia_wzm_ram_5">Zgięcie przedramion i powrót do pozycji wyjściowej.</string>
+    <string name="cwiczenie_nazwa_wzm_ram_6">Zgięcie przedramion stojąc z rotacją przedramienia</string>
+    <string name="opis_cwiczenia_wzm_ram_6">Stój w lekkim rozkroku. Zgięcie przedramion i powrót do pozycji wyjściowej z jednoczesną rotacją przedramienia o 90°.</string>
+    <string name="Wykonane_powtorzenia">Ilość wykonanych powtórzeń</string>
+    <string name="skala_trud">W skali od 0 do 10 określ trudność ćwiczeń? (0 - bardzo łatwe, 10 - bardzo trudne)</string>
+    <string name="skala_bol">W skali od 0 do 10 określ ból występujący podczas ćwiczeń? (0 - bez bólu, 10 - ogromny ból)</string>
+    <string name="podsumowanie">Podsumowanie dnia</string>
+    <string name="do_ekran_glowny">Zatwierdź</string>
+    <string name="aktualizuj_liste_users">Aktualizuj</string>
+    <string name="pytania">Własna ocena</string>
+    <string name="gratulacje">Gratulacje! Udało Ci się ukończyć całą terapię!!!</string>
+</resources>

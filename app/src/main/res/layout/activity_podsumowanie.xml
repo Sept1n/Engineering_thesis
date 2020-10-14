@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Podsumowanie"
+    android:background="@color/colorAccent">>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="31dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/podsumowanie_napis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/podsumowanie"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/ilosc_cw_wykonanych"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/ilosc_ser_wykonanych"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/ilosc_pow_wykonanych"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pod_ciez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pytania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pytania"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pyt_trud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/skala_trud"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC" />
+
+            <EditText
+                android:id="@+id/trud_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Skala trudności"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC"
+                android:textColorHint="#F0ECEC" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pyt_bol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/skala_bol"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC" />
+
+            <EditText
+                android:id="@+id/bol_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Skala bólu"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#F0ECEC"
+                android:textColorHint="#F0ECEC" />
+
+            <Button
+                android:id="@+id/do_ekran_glowny"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/do_ekran_glowny" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
